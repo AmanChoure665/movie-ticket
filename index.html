@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine Pass</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Cine 🎬 Pass</div>
+        <input type="text" placeholder="Search for movies or theaters" class="search-bar">
+        <div class="location">
+            <select>
+                <option value="Location">Location</option>
+                <option value="New York">New York</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Chicago">Chicago</option>
+            </select>
+        </div>
+        <div class="auth-buttons">
+            <button id="loginBtn">Login/Signup</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="movie-list">
+            <h2>Now Showing</h2>
+            <div class="movies" id="moviesContainer"></div>
+        </section>
+
+        <section class="about">
+            <h2>About Cine Pass</h2>
+            <p>
+                Welcome to Cine Pass, your go-to platform for the latest movies and easy ticket booking! 
+                Whether you're looking for the newest blockbuster or a classic film, we have something for everyone. 
+                Enjoy a seamless experience with our user-friendly interface and quick booking process.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cine Pass. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
