@@ -159,7 +159,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 15px; /* Increased gap for better seat spacing */
-    margin: 20px 550px;
+    margin: 20px 35%;
+    margin-left: 36%;
     padding-left: 13px;
 }
 
